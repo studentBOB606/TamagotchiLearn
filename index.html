@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tamagotchi</title>
+    <link rel="stylesheet" href="index.css">
+
+</head>
+<body>
+
+<header>AAAAAPPPPP</header>
+
+
+<img class="animal" alt src="https://static.vecteezy.com/system/resources/previews/026/547/563/non_2x/an-8-bit-retro-styled-pixel-art-illustration-of-a-brown-monkey-holding-a-banana-free-png.png">
+<img class="settings" alt src="https://cdn-icons-png.freepik.com/256/14035/14035097.png?semt=ais_hybrid">
+
+
+<p class="honger">Honger: <span id="honger">0</span></p>
+<button class="button1" onclick="increment()"><img class="Banana" alt src="https://static.vecteezy.com/system/resources/thumbnails/009/597/420/small_2x/banana-fruit-illustration-cartoon-png.png"> </button>
+
+</body>
+</html>
+
+<script>
+    let count = 0;
+    const halfCount = 50;
+    const Kwartcount= 75;
+    const maxCount = 100;
+    const decrementRate = 20000;
+
+    function increment() {
+        if (count < halfCount) {
+            count++;
+            count++;
+            count++;
+            count++;
+            count++;
+            count++;
+            count++;
+            count++;
+            count++;
+            count++;
+            count++;
+            count++;
+            count++;
+            count++;
+            count++;
+            count++;
+            count++;
+            count++;
+            count++;
+            count++;
+            count++;
+            count++;
+            count++;
+            count++;
+
+            updateDisplay();
+
+        }else if (count < Kwartcount){
+            count++;
+            count++;
+            count++;
+            count++;
+            count++;
+            count++;
+            count++;
+            count++;
+            count++;
+            count++;
+
+            updateDisplay();
+
+        }
+        else if (count < maxCount){
+            count++;
+            count++;
+            count++;
+            count++;
+            updateDisplay();
+
+        }
+        else {
+            alert("Maximum count reached!");
+        }
+    }
+
+
+    function updateDisplay() {
+        document.getElementById('honger').textContent = count;
+    }
+
+    setInterval(() => {
+        if (count > 0) {
+            count--;
+            updateDisplay();
+        }
+    }, decrementRate);
+</script>
+
+
+
