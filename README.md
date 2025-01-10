@@ -1,1 +1,1 @@
-# TamagotchiLearn
+# TamagotchiB&Yproject
