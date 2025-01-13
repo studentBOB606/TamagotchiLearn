@@ -1,3 +1,11 @@
+body{
+    background-image: url("https://img.freepik.com/premium-vector/tropical-beach-summer-background-palm-trees-seagulls-sea-sand-ocean-island-flat-cartoon_221062-867.jpg");
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size:1600px 770px;
+}
+
+
 .animal{
     position: absolute;
     height: 300px;
@@ -9,23 +17,102 @@
 .button1 {
     position: absolute;
     bottom: 50px;
+    width: 50px;
+    height: 50px;
     right: 500px;
     cursor: pointer;
     border-radius: 87%;
-    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR30vAuLPUcyDqd5wXZbj3dlMoLCDN5iatmBg&s');
     background-size: 100px;
     background-repeat: no-repeat;
 }
 
-.Banana{
+.button2 {
+    position: absolute;
+    bottom: 50px;
+    width: 50px;
+    height: 50px;
+    right: 600px;
+    cursor: pointer;
+    border-radius: 87%;
+    background-size: 100px;
+    background-repeat: no-repeat;
+}
+.button3 {
+    position: absolute;
+    bottom: 50px;
+    width: 50px;
+    height: 50px;
+    right: 800px;
+    cursor: pointer;
+    border-radius: 87%;
+    background-size: 100px;
+    background-repeat: no-repeat;
+}
+.button4 {
+    position: absolute;
+    bottom: 50px;
+    width: 50px;
+    height: 50px;
+    right: 900px;
+    cursor: pointer;
+    border-radius: 87%;
+    background-size: 100px;
+    background-repeat: no-repeat;
+}
+.button5 {
+    position: absolute;
+    bottom: 50px;
+    width: 70px;
+    height: 70px;
+    right: 690px;
+    cursor: pointer;
+    border-radius: 50%;
+    background-size: 100px;
+    background-repeat: no-repeat;
+}
+
+.banana{
+    height: 30px;
+    width: 30px;
+}
+.face{
+    height: 30px;
+    width: 30px;
+}
+.kamer{
+    height: 30px;
+    width: 30px;
+}
+.work{
+    height: 30px;
+    width: 30px;
+}
+.home{
     height: 40px;
     width: 40px;
 }
-
 .honger {
     position: absolute;
-    right: 700px;
-    bottom: 150px;
+    right: 690px;
+    bottom: 120px;
+}
+
+.plezier {
+    position: absolute;
+    right: 690px;
+    bottom: 100px;
+}
+
+.slaap{
+    position: absolute;
+    right: 690px;
+    bottom: 110px;
+}
+
+.job{
+    position: absolute;
+    right: 690px;
+    bottom: 130px;
 }
 
 header {
