@@ -7,9 +7,9 @@
     <link rel="stylesheet" href="index.css">
 
 </head>
-<body>
 
 <header>AAAAAPPPPP</header>
+
 
 
 <img class="animal" alt src="https://static.vecteezy.com/system/resources/previews/026/547/563/non_2x/an-8-bit-retro-styled-pixel-art-illustration-of-a-brown-monkey-holding-a-banana-free-png.png">
@@ -17,7 +17,24 @@
 
 
 <p class="honger">Honger: <span id="honger">0</span></p>
-<button class="button1" onclick="increment()"><img class="Banana" alt src="https://static.vecteezy.com/system/resources/thumbnails/009/597/420/small_2x/banana-fruit-illustration-cartoon-png.png"> </button>
+<button class="button1" onclick="increment()"><img class="banana" alt src="https://static.vecteezy.com/system/resources/thumbnails/009/597/420/small_2x/banana-fruit-illustration-cartoon-png.png"> </button>
+
+<p class="plezier">Plezier: <span id="plezier">0</span></p>
+<button class="button2" onclick="Increment()"><img class="face" alt src="https://pngfre.com/wp-content/uploads/smiley-face-png-from-pngfre-10-300x300.png"> </button>
+
+<p class="slaap">Slaap: <span id="slaap">0</span></p>
+<button class="button3" onclick="INcrement()"><img class="kamer" alt src="pngkey.com-sleeping-png-1120811.png"> </button>
+
+<p class="job">Werk: <span id="job">0</span></p>
+<button class="button4" onclick="INCrement()"><img class="work" alt src="https://cdn-icons-png.flaticon.com/512/2622/2622303.png"> </button>
+
+<button class="button5" onclick=""><img class="home" alt src="https://e7.pngegg.com/pngimages/703/597/png-clipart-logo-house-home-house-angle-building-thumbnail.png"> </button>
+
+<audio autoplay controls>
+    <source src="Banana%20Shake.mp4" type="audio/mpeg">
+</audio>
+
+<body>
 
 </body>
 </html>
@@ -50,17 +67,10 @@
             count++;
             count++;
             count++;
-            count++;
-            count++;
-            count++;
-            count++;
-            count++;
 
             updateDisplay();
 
         }else if (count < Kwartcount){
-            count++;
-            count++;
             count++;
             count++;
             count++;
@@ -85,10 +95,183 @@
             alert("Maximum count reached!");
         }
     }
+    let COunt = 0;
+    const HAlfCOunt = 50;
+    const KWartCOunt= 75;
+    const MAxCOunt = 100;
+    const DEcrementRate = 10000;
+    function INcrement() {
+        if (COunt < HAlfCOunt) {
+            COunt++;
+            COunt++;
+            COunt++;
+            COunt++;
+            COunt++;
+            COunt++;
+            COunt++;
+            COunt++;
+            COunt++;
+            COunt++;
+            COunt++;
+            COunt++;
+            COunt++;
+            COunt++;
+            COunt++;
+            COunt++;
+            COunt++;
+            COunt++;
+            COunt++;
+            COunt++;
+            COunt++;
 
 
+            UPdateDisplay();
+
+        }else if (COunt < KWartCOunt){
+            COunt++;
+            COunt++;
+            COunt++;
+            COunt++;
+            COunt++;
+            COunt++;
+            COunt++;
+            COunt++;
+            UPdateDisplay();
+
+        }
+        else if (COunt < MAxCOunt){
+            COunt++;
+            COunt++;
+            COunt++;
+            COunt++;
+            COunt++;
+
+            UpdateDisplay();
+
+        }
+        else {
+            alert("Maximum count reached!");
+        }
+    }
+    let COUnt = 0;
+    const HAlFCOUnt = 50;
+    const KWArtCOUnt= 75;
+    const MAXCOUnt = 100;
+    const DECrementRate = 10000;
+    function INCrement() {
+        if (COUnt < HAlFCOUnt) {
+            COUnt++;
+            COUnt++;
+            COUnt++;
+            COUnt++;
+            COUnt++;
+            COUnt++;
+            COUnt++;
+            COUnt++;
+            COUnt++;
+            COUnt++;
+            COUnt++;
+            COUnt++;
+            COUnt++;
+            COUnt++;
+            COUnt++;
+            COUnt++;
+            COUnt++;
+            COUnt++;
+            COUnt++;
+            COUnt++;
+
+
+            UPDateDisplay();
+
+        }else if (COunt < KWArtCOUnt){
+            COUnt++;
+            COUnt++;
+            COUnt++;
+            COUnt++;
+            COUnt++;
+            COUnt++;
+            COUnt++;
+            COUnt++;
+            UPDateDisplay();
+
+        }
+        else if (COunt < MAXCOUnt){
+            COUnt++;
+            COUnt++;
+            COUnt++;
+            COUnt++;
+            COUnt++;
+            COUnt++;
+
+            UPDateDisplay();
+
+        }
+        else {
+            alert("Maximum count reached!");
+        }
+    }
+    let Count = 0;
+    const HalfCount = 50;
+    const KwartCount= 75;
+    const MaxCount = 100;
+    const DecrementRate = 10000;
+    function Increment() {
+        if (Count < HalfCount) {
+            Count++;
+            Count++;
+            Count++;
+            Count++;
+            Count++;
+            Count++;
+            Count++;
+            Count++;
+            Count++;
+            Count++;
+            Count++;
+            Count++;
+            Count++;
+            Count++;
+            Count++;
+            Count++;
+            Count++;
+            Count++;
+
+        UpdateDisplay();
+        } else if (Count < KwartCount){
+            Count++;
+            Count++;
+            Count++;
+            Count++;
+            Count++;
+            Count++;
+            Count++;
+            Count++;
+            Count++;
+
+
+        UpdateDisplay();
+        } else if (Count < MaxCount){
+            Count++;
+            Count++;
+            Count++;
+            Count++;
+
+
+        UpdateDisplay();    }
+    else {
+        alert("Maximum count reached!");
+    }}
     function updateDisplay() {
         document.getElementById('honger').textContent = count;
+    }
+    function UpdateDisplay() {
+        document.getElementById('plezier').textContent = Count;}
+    function UPdateDisplay() {
+        document.getElementById('slaap').textContent = COunt;
+    }
+    function UPDateDisplay() {
+        document.getElementById('job').textContent = COUnt;
     }
 
     setInterval(() => {
@@ -97,6 +280,24 @@
             updateDisplay();
         }
     }, decrementRate);
+    setInterval(() => {
+        if (Count > 0) {
+            Count--;
+            UpdateDisplay()
+        }
+    }, DecrementRate);
+    setInterval(() => {
+        if (COunt > 0) {
+            COunt--;
+            UPdateDisplay()
+        }
+    }, DEcrementRate);
+    setInterval(() => {
+        if (COUnt > 0) {
+            COUnt--;
+            UPDateDisplay()
+        }
+    }, DECrementRate);
 </script>
 
 
