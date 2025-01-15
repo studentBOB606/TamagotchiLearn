@@ -8,14 +8,31 @@
 
 </head>
 
-<header>AAAAAPPPPP</header>
+
+<header>
+    <div class="popup" onclick="myFunction()">Monkey    <span class="popuptext" id="myPopup">Hello There</span></div>
+</header>
 
 
-
+<div>
 <img class="animal" alt src="https://static.vecteezy.com/system/resources/previews/026/547/563/non_2x/an-8-bit-retro-styled-pixel-art-illustration-of-a-brown-monkey-holding-a-banana-free-png.png">
-<img class="settings" alt src="https://cdn-icons-png.freepik.com/256/14035/14035097.png?semt=ais_hybrid">
+</div>
+
+<nav>
+    <ul>
+        <li>
+            <a href="#">Options ▾</a>
+            <ul class="dropdown">
+                <li><a href="#">User Info</a></li>
+                <li><a href="#">Dark Theme</a></li>
+                <li><a href="#">Background</a></li>
+                <li><a href="#">Settings</a></li>
+            </ul>
+    </ul>
+</nav>
 
 
+<div>
 <p class="honger">Honger: <span id="honger">0</span></p>
 <button class="button1" onclick="increment()"><img class="banana" alt src="https://static.vecteezy.com/system/resources/thumbnails/009/597/420/small_2x/banana-fruit-illustration-cartoon-png.png"> </button>
 
@@ -28,10 +45,11 @@
 <p class="job">Werk: <span id="job">0</span></p>
 <button class="button4" onclick="INCrement()"><img class="work" alt src="https://cdn-icons-png.flaticon.com/512/2622/2622303.png"> </button>
 
-<button class="button5" onclick=""><img class="home" alt src="https://e7.pngegg.com/pngimages/703/597/png-clipart-logo-house-home-house-angle-building-thumbnail.png"> </button>
+<button class="button5" onclick=""><img class="home" alt src="home.png"> </button>
+</div>
 
 <audio autoplay controls>
-    <source src="Banana%20Shake.mp4" type="audio/mpeg">
+    <source src="#" type="audio/mpeg">
 </audio>
 
 <body>
@@ -44,52 +62,21 @@
     const halfCount = 50;
     const Kwartcount= 75;
     const maxCount = 100;
-    const decrementRate = 20000;
+    const decrementRate = 10000;
 
     function increment() {
         if (count < halfCount) {
-            count++;
-            count++;
-            count++;
-            count++;
-            count++;
-            count++;
-            count++;
-            count++;
-            count++;
-            count++;
-            count++;
-            count++;
-            count++;
-            count++;
-            count++;
-            count++;
-            count++;
-            count++;
-            count++;
-
+            count += 16;
             updateDisplay();
-
         }else if (count < Kwartcount){
-            count++;
-            count++;
-            count++;
-            count++;
-            count++;
-            count++;
-            count++;
-            count++;
+            count += 8;
 
             updateDisplay();
 
         }
         else if (count < maxCount){
-            count++;
-            count++;
-            count++;
-            count++;
+            count += 4;
             updateDisplay();
-
         }
         else {
             alert("Maximum count reached!");
@@ -102,52 +89,15 @@
     const DEcrementRate = 10000;
     function INcrement() {
         if (COunt < HAlfCOunt) {
-            COunt++;
-            COunt++;
-            COunt++;
-            COunt++;
-            COunt++;
-            COunt++;
-            COunt++;
-            COunt++;
-            COunt++;
-            COunt++;
-            COunt++;
-            COunt++;
-            COunt++;
-            COunt++;
-            COunt++;
-            COunt++;
-            COunt++;
-            COunt++;
-            COunt++;
-            COunt++;
-            COunt++;
-
-
-            UPdateDisplay();
+            COunt += 16;
+            UPdateDisplay()
 
         }else if (COunt < KWartCOunt){
-            COunt++;
-            COunt++;
-            COunt++;
-            COunt++;
-            COunt++;
-            COunt++;
-            COunt++;
-            COunt++;
-            UPdateDisplay();
-
-        }
-        else if (COunt < MAxCOunt){
-            COunt++;
-            COunt++;
-            COunt++;
-            COunt++;
-            COunt++;
-
-            UpdateDisplay();
-
+            COunt += 8;
+            UPdateDisplay()
+        }else if (COunt < MAxCOunt){
+            COunt += 4;
+            UPdateDisplay()
         }
         else {
             alert("Maximum count reached!");
@@ -160,52 +110,15 @@
     const DECrementRate = 10000;
     function INCrement() {
         if (COUnt < HAlFCOUnt) {
-            COUnt++;
-            COUnt++;
-            COUnt++;
-            COUnt++;
-            COUnt++;
-            COUnt++;
-            COUnt++;
-            COUnt++;
-            COUnt++;
-            COUnt++;
-            COUnt++;
-            COUnt++;
-            COUnt++;
-            COUnt++;
-            COUnt++;
-            COUnt++;
-            COUnt++;
-            COUnt++;
-            COUnt++;
-            COUnt++;
-
-
-            UPDateDisplay();
+            COUnt += 16;
+            UPDateDisplay()
 
         }else if (COUnt < KWArtCOUnt){
-            COUnt++;
-            COUnt++;
-            COUnt++;
-            COUnt++;
-            COUnt++;
-            COUnt++;
-            COUnt++;
-            COUnt++;
-            UPDateDisplay();
-
-        }
-        else if (COUnt < MAXCOUnt){
-            COUnt++;
-            COUnt++;
-            COUnt++;
-            COUnt++;
-            COUnt++;
-            COUnt++;
-
-            UPDateDisplay();
-
+            COUnt += 8;
+            UPDateDisplay()
+        }else if (COUnt < MAXCOUnt){
+            COUnt += 4;
+            UPDateDisplay()
         }
         else {
             alert("Maximum count reached!");
@@ -218,55 +131,26 @@
     const DecrementRate = 10000;
     function Increment() {
         if (Count < HalfCount) {
-            Count++;
-            Count++;
-            Count++;
-            Count++;
-            Count++;
-            Count++;
-            Count++;
-            Count++;
-            Count++;
-            Count++;
-            Count++;
-            Count++;
-            Count++;
-            Count++;
-            Count++;
-            Count++;
-            Count++;
-            Count++;
-
-        UpdateDisplay();
-        } else if (Count < KwartCount){
-            Count++;
-            Count++;
-            Count++;
-            Count++;
-            Count++;
-            Count++;
-            Count++;
-            Count++;
-            Count++;
-
-
-        UpdateDisplay();
-        } else if (Count < MaxCount){
-            Count++;
-            Count++;
-            Count++;
-            Count++;
-
-
-        UpdateDisplay();    }
-    else {
-        alert("Maximum count reached!");
-    }}
+            Count += 16;
+            UpdateDisplay();
+        }else if (Count < KwartCount){
+            Count += 8;
+            UpdateDisplay();
+        }
+        else if (Count < MaxCount){
+            Count += 4;
+            updateDisplay();
+        }
+        else {
+            alert("Maximum count reached!");
+        }
+    }
     function updateDisplay() {
         document.getElementById('honger').textContent = count;
     }
     function UpdateDisplay() {
-        document.getElementById('plezier').textContent = Count;}
+        document.getElementById('plezier').textContent = Count;
+    }
     function UPdateDisplay() {
         document.getElementById('slaap').textContent = COunt;
     }
@@ -298,6 +182,11 @@
             UPDateDisplay()
         }
     }, DECrementRate);
+    function myFunction() {
+        let popup = document.getElementById("myPopup");
+        popup.classList.toggle("show");
+    }
+
 </script>
 
 
