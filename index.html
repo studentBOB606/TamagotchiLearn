@@ -5,57 +5,91 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tamagotchi</title>
     <link rel="stylesheet" href="index.css">
-
+    <link rel="icon" type="image/x-icon" href="8-bit%20Monkey.png">
+    <script src="pet.js"></script>
 </head>
 
 <header>
-    <div class="popup" onclick="myFunction()">Monkey<span class="popuptext" id="myPopup">Hello There</span></div>
+    <div class="HUNGRYTEXT" id="popup" style="display: none;color: greenyellow;">Ik Heb Honger</div>
+    <div class="HappyText" id="popup-text" style="display: none;color: deeppink;">ik wil iets leuk doen</div>
+    <div class="SleepyText" id="Text" style="display: none;color: darkblue;">Ik wil slapen</div>
+    <div class="WorkText" id="Text-Popup" style="display: none;color: gray;">ik will werken</div>
 </header>
-<button class="button6" onclick="activateMode('dark-mode', this)">Wild West</button>
-<button class="button7" onclick="activateMode('forest', this)">Forest</button>
-<button class="button8" onclick="activateMode('sea', this)">Sea</button>
-<button class="button9" onclick="activateMode('something', this)">...</button>
 
-<div>
-    <img class="animal" id="animal" alt src="8-bit%20Monkey.png">
+<img class="animal" id="animal" alt src="8-bit%20Monkey.png">
+
+<div class="menu-bar">
+    <ul>
+        <li class="active"><a class="SMF" href="#">Background</a>
+            <div class="sub-menu">
+                <ul>
+                    <button class="button6" onclick="activateMode('West', this)">Wild West</button>
+                    <button class="button7" onclick="activateMode('forest', this)">Forest</button>
+                    <button class="button8" onclick="activateMode('sea', this)">Seashore</button>
+                    <button class="button9" onclick="activateMode('something', this)">......</button>
+                </ul>
+            </div>
+        </li>
+        <li class="active"><a class="SMF" href="#">Skins</a>
+            <div class="sub-menu">
+                <ul>
+                    <button class="button10" onclick="MyFunction()">Cowboy</button>
+                    <button class="button11" onclick="MYFunction()">Safari</button>
+                    <button class="button12" onclick="MYFUnction()">Summer</button>
+                    <button class="button13" onclick="MYFUNction()">Knight</button>
+                </ul>
+            </div>
+        </li>
+        <li class="active"><a class="SMF" href="#">Settings</a></li>
+    </ul>
 </div>
 
-<nav>
-    <ul>
-        <li>
-            <a href="#">Options ▾</a>
-            <ul class="dropdown">
-                <li><a href="#">User Info</a></li>
-                <li><a href="#">Dark Mode</a></li>
-                <li><a href="#">Background</a></li>
-                <li><a href="#">Settings</a></li>
-            </ul>
-    </ul>
-</nav>
-
+<audio controls>
+    <source src="Banana%20Shake.mp4" type="audio/mp4">
+</audio>
 
 <div>
     <p class="honger">Honger: <span id="honger">0</span></p>
-    <button class="button1" onclick="increment()"><img class="banana" alt src="https://static.vecteezy.com/system/resources/thumbnails/009/597/420/small_2x/banana-fruit-illustration-cartoon-png.png"> </button>
-
+    <button class="button1" onclick="increment(); startAnimation()"  ><img class="banana" alt src="https://static.vecteezy.com/system/resources/thumbnails/009/597/420/small_2x/banana-fruit-illustration-cartoon-png.png"></button>
     <p class="plezier">Plezier: <span id="plezier">0</span></p>
-    <button class="button2" onclick="Increment()"><img class="face" alt src="https://pngfre.com/wp-content/uploads/smiley-face-png-from-pngfre-10-300x300.png"> </button>
-
+    <button class="button2" onclick="Increment(); StartAnimation(); "><img class="face" alt src="https://pngfre.com/wp-content/uploads/smiley-face-png-from-pngfre-10-300x300.png"> </button>
     <p class="slaap">Slaap: <span id="slaap">0</span></p>
-    <button class="button3" onclick="INcrement()"><img class="kamer" alt src="../pngkey.com-sleeping-png-1120811.png"> </button>
-
+    <button class="button3" onclick="INcrement();Animation();"><img class="kamer" alt src="../pngkey.com-sleeping-png-1120811.png"> </button>
     <p class="job">Werk: <span id="job">0</span></p>
-    <button class="button4" onclick="INCrement()"><img class="work" alt src="https://cdn-icons-png.flaticon.com/512/2622/2622303.png"> </button>
+    <button class="button4" onclick="INCrement();StartingAnimation(); "><img class="work" alt src="https://cdn-icons-png.flaticon.com/512/2622/2622303.png"> </button>
 
-    <button class="button5" onclick=""><img class="home" alt src="../home.png"> </button>
+    <button id="openModal"><img class="home" alt src="../home.png"></button>
+    <div class="modal" id="modal">
+    <div class="modal-inner">
+        <h1>User Info</h1>
+        <p class="homemenu">Naam:</p>
+        <p class="homemenu">Achternaam:</p>
+        <p class="homemenu">Playtime:</p>
+        <p class="homemenu">Pet Type:</p>
+        <p class="homemenu">Date Created:</p>
+        <p class="homemenu1">This tamagotchi was created by Bob & Yunis in school for a project which consisted of 5 weeks</p>
+        <button id="closeModal">Close</button>
+    </div>
+    </div>
 </div>
-<link rel="icon" type="image/x-icon" href="https://64.media.tumblr.com/44cb6c18c6ad2f83690ccb70e5fb4ab7/5d873709758be557-84/s1280x1920/f79c93a0785e28dbf7523183faf583620e387112.png">
+<script src="script.js"></script>
 
-<button class="button10" onclick="MyFunction()">Cowboy</button>
-<button class="button11" onclick="MYFunction()">Safari</button>
-<button class="button12" onclick="MYFUnction()">Summer</button>
-<button class="button13" onclick="MYFUNction()">Knight</button>
+<script>
+
+        // Example: Play audio
+        const audio = new Audio('Banana Shake.mp4');
+        audio.play().catch(error => {
+            console.log("Autoplay blocked. User interaction might be required.");
+        });
+    };
+</script>
+
+<link  rel="icon" type="image/x-icon" href="https://64.media.tumblr.com/44cb6c18c6ad2f83690ccb70e5fb4ab7/5d873709758be557-84/s1280x1920/f79c93a0785e28dbf7523183faf583620e387112.png">
+
+<div id="animatedDiv"><img class="banaa" src="https://static.vecteezy.com/system/resources/thumbnails/009/597/420/small_2x/banana-fruit-illustration-cartoon-png.png"></div>
+<div id="Animated"><img class="Happy" src="https://stammishorecaverhuur.nl/wp-content/uploads/2022/02/Heineken-0.0-683x1024.png"></div>
+<div id="AnimatedWork"><img class="Sleep" src="https://static.vecteezy.com/system/resources/thumbnails/019/899/720/small/z-sleepy-symbol-element-png.png"></div>
+<div id="working"><img class="Sleep" src="https://png.pngtree.com/png-vector/20220612/ourmid/pngtree-deadline-work-papers-icon-png-image_4998289.png"></div>
+
 
 </html>
-
-<script src="pet.js"></script>
