@@ -20,12 +20,20 @@ function activateMode(mode, button) {
 
     // Highlight the clicked button
     button.classList.add("active");
+
 }
+
 let count = 0;
 const halfCount = 50;
 const Kwartcount= 75;
 const maxCount = 100;
 const decrementRate = 10000;
+
+function updateDisplay() {
+    const progressBar = document.getElementById('progress-bar');
+    progressBar.style.width = count + '%';
+    progressBar.textContent = count + '%';
+}
 
 function increment() {
     if (count < halfCount) {
@@ -52,14 +60,14 @@ const MAxCOunt = 100;
 const DEcrementRate = 10000;
 function INcrement() {
     if (COunt < HAlfCOunt) {
-        COunt += 16;
+        COunt += 32;
         UPdateDisplay()
 
     }else if (COunt < KWartCOunt){
-        COunt += 8;
+        COunt += 16;
         UPdateDisplay()
     }else if (COunt < MAxCOunt){
-        COunt += 4;
+        COunt += 8;
         UPdateDisplay()
     }
     else {
@@ -102,7 +110,7 @@ function Increment() {
     }
     else if (Count < MaxCount){
         Count += 4;
-        updateDisplay();
+        UpdateDisplay();
     }
     else {
         alert("Maximum count reached!");
@@ -110,15 +118,39 @@ function Increment() {
 }
 function updateDisplay() {
     document.getElementById('honger').textContent = count;
+    const popup = document.getElementById('popup');
+    if (count < 45) {
+        popup.style.display = "block";
+    } else {
+        popup.style.display = "none";
+    }
 }
 function UpdateDisplay() {
     document.getElementById('plezier').textContent = Count;
+    const popup = document.getElementById('popup-text');
+    if (Count < 45) {
+        popup.style.display = "block";
+    } else {
+        popup.style.display = "none";
+    }
 }
 function UPdateDisplay() {
     document.getElementById('slaap').textContent = COunt;
+    const popup = document.getElementById('Text');
+    if (COunt < 45) {
+        popup.style.display = "block";
+    } else {
+        popup.style.display = "none";
+    }
 }
 function UPDateDisplay() {
     document.getElementById('job').textContent = COUnt;
+    const popup = document.getElementById('Text-Popup');
+    if (COUnt < 45) {
+        popup.style.display = "block";
+    } else {
+        popup.style.display = "none";
+    }
 }
 
 setInterval(() => {
@@ -146,7 +178,53 @@ setInterval(() => {
     }
 }, DECrementRate);
 
-function myFunction() {
-    let popup = document.getElementById("myPopup");
-    popup.classList.toggle("show");
+function startAnimation() {
+    const animatedDiv = document.getElementById('animatedDiv');
+
+    // Remove the animation by resetting the style
+    animatedDiv.style.animation = 'none';
+
+    // Force a reflow to restart the animation
+    void animatedDiv.offsetWidth;
+
+    // Add the animation back
+    animatedDiv.style.animation = 'mymove 1750ms forwards';
 }
+function StartAnimation() {
+    const Animated = document.getElementById('Animated');
+
+    // Remove the animation by resetting the style
+    Animated.style.animation = 'none';
+
+    // Force a reflow to restart the animation
+    void Animated.offsetWidth;
+
+    // Add the animation back
+    Animated.style.animation = 'move 1750ms forwards';
+}
+function Animation() {
+    const AnimatedWork = document.getElementById('AnimatedWork');
+
+    // Remove the animation by resetting the style
+    AnimatedWork.style.animation = 'none';
+
+    // Force a reflow to restart the animation
+    void AnimatedWork.offsetWidth;
+
+    // Add the animation back
+    AnimatedWork.style.animation = 'Animated 1750ms forwards';
+}
+function StartingAnimation() {
+    const working = document.getElementById('working');
+
+    // Remove the animation by resetting the style
+    working.style.animation = 'none';
+
+    // Force a reflow to restart the animation
+    void working.offsetWidth;
+
+    // Add the animation back
+    working.style.animation = 'Moving 1750ms forwards';
+}
+
+
