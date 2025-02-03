@@ -1,5 +1,10 @@
+@font-face {
+    font-family: myFont;
+    src: url("Pop Sweet.ttf");
+}
+
 body{
-    background-image: url("https://img.freepik.com/premium-vector/tropical-beach-summer-background-palm-trees-seagulls-sea-sand-ocean-island-flat-cartoon_221062-867.jpg");
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsbYvpVhN0lEorwyCEn1rjMDWzERdoENnP8g&s");
     background-color: white;
     background-repeat: no-repeat;
     background-size:1600px 770px;
@@ -8,46 +13,75 @@ body{
 * {
     padding: 0;
     margin: 0;
-    font-family: 'Poppins', monospace;
+    box-sizing: border-box;
+    font-family: myFont;
+    font-size: 13px;
 }
 
-ul {
-    list-style: none;
-    background: black;
-}
-
-ul li {
-    display: inline-block;
-    position: relative;
-}
-
-ul li a {
-    display: block;
-    padding: 15px 20px;
-    color: white;
-    text-decoration: none;
+.menu-bar{
+    background: rgb(0,0,0);
+    opacity: 95%;
     text-align: center;
-    font-size: 20px;
 }
 
-ul li ul.dropdown li {
-    display: block;
+.menu-bar ul{
+    display: inline-flex;
+    list-style: none;
+    color: white;
 }
 
-ul li ul.dropdown {
-    width: 100%;
-    background: black;
-    position: absolute;
-    z-index: 999;
+.menu-bar ul li{
+    width: 120px;
+    margin: 15px;
+    padding: 5px;
+}
+
+.menu-bar ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.sub-menu{
     display: none;
 }
 
-ul li a:hover {
-    background: black;
+.sub-menu ul button {
+    display: block;
+    margin-bottom: 10px;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
 }
 
-ul li:hover ul.dropdown {
+.menu-bar ul li:hover .sub-menu {
     display: block;
+    position: absolute;
+    background:rgb(0,0,0);
+    margin-top:15px;
+    margin-left: -15px;
+}
+
+.menu-bar ul li:hover .sub-menu ul {
+    display: block;
+    margin: 10px;
+}
+
+.menu-bar ul li:hover .sub-menu ul li{
+    width: 150px;
+    margin: 10px;
+    border-bottom: 1px dotted black;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+}
+
+.SMF {
+    font-size: 16px;
+}
+
+.DT {
+    background: black;
+    color: white;
 }
 
 .animal{
@@ -57,6 +91,64 @@ ul li:hover ul.dropdown {
     top: 250px;
     right: 580px;
 }
+
+
+button:active {
+    opacity: 0.8%;
+}
+
+.modal {
+    background-color: rgba(0, 0, 0, 0.3);
+    opacity: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    transition: all 0.3s ease-in-out;
+    z-index: -1;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal.open {
+    opacity: 1;
+    z-index: 999;
+}
+
+.modal-inner {
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
+    padding: 15px 25px;
+    text-align: center;
+    width: 380px;
+}
+
+.modal-inner h1{
+    margin: 0;
+}
+
+.modal-inner p {
+    line-height: 24px;
+    margin: 10px 0;
+}
+
+
+.home{
+    position: absolute;
+    bottom: 55px;
+    width: 50px;
+    height: 50px;
+    right: 700px;
+    cursor: pointer;
+    border-radius: 87%;
+    background-size: 100px;
+    background-repeat: no-repeat;
+}
+
 .button1 {
     position: absolute;
     bottom: 55px;
@@ -136,34 +228,31 @@ ul li:hover ul.dropdown {
 }
 .honger {
     position: absolute;
-    left: 100px;
-    bottom: 500px;
+    left: 300px;
+    bottom: 450px;
 }
 
 .plezier {
     position: absolute;
-    left: 100px;
-    bottom: 440px;
+    left: 300px;
+    bottom: 400px;
 }
 
 .slaap{
     position: absolute;
-    left: 100px;
-    bottom: 380px;
+    left: 300px;
+    bottom: 350px;
 }
 
 .job{
     position: absolute;
-    left: 100px;
-    bottom: 320px;
+    left: 300px;
+    bottom: 300px;
 }
 
 header {
-    position: absolute;
-    right: 630px;
-    top: 150px;
-    font-weight: bold;
-    font-size: 30px;
+
+
 }
 
 .settings {
@@ -175,48 +264,13 @@ audio{
     right: 50px;
 }
 
-.popup {
-    position: relative;
-    display: inline-block;
-    cursor: pointer;
-}
-.popup .popuptext {
-    visibility: hidden;
-    width: 160px;
-    background-color: #555;
-    color: #fff;
-    text-align: center;
-    border-radius: 6px;
-    padding: 8px 0;
-    position: absolute;
-    z-index: 1;
-    bottom: 125%;
-    left: 50%;
-    margin-left: -80px;
-}
-.popup .popuptext::after {
-    content: "";
-    position: absolute;
-    top: 100%;
-    left: 50%;
-    margin-left: -5px;
-    border-width: 5px;
-    border-style: solid;
-    border-color: #555 transparent transparent transparent;
-}
-.popup .show {
-    visibility: visible;
-    -webkit-animation: fadeIn 1s;
-    animation: fadeIn 1s
-}
-
 @-webkit-keyframes fadeIn {
     from {opacity: 0;}    to {opacity: 1;}}@keyframes fadeIn {    from {opacity: 0;}    to {opacity:1 ;}}
 
 .button6 {
     font-size: 20px;
-    color: yellow;
-    background-color: orange;
+    color: black;
+    background-color: white;
     margin: 5px;
     padding: 10px 20px;
     border: none;
@@ -224,8 +278,8 @@ audio{
 }
 .button7 {
     font-size: 20px;
-    color: yellow;
-    background-color: orange;
+    color: black;
+    background-color: white;
     margin: 5px;
     padding: 10px 20px;
     border: none;
@@ -233,8 +287,8 @@ audio{
 }
 .button8 {
     font-size: 20px;
-    color: yellow;
-    background-color: orange;
+    color: black;
+    background-color: white;
     margin: 5px;
     padding: 10px 20px;
     border: none;
@@ -242,8 +296,8 @@ audio{
 }
 .button9 {
     font-size: 20px;
-    color: yellow;
-    background-color: orange;
+    color: black;
+    background-color: white;
     margin: 5px;
     padding: 10px 20px;
     border: none;
@@ -288,9 +342,9 @@ audio{
 }
 
 button.active {
-    background-color: green;
+    background-color: saddlebrown;
 }
-.dark-mode {
+.West {
     background-image: url('https://www.shutterstock.com/image-vector/wild-west-desert-landscape-8bit-260nw-2363468101.jpg');
     background-repeat: no-repeat;
     background-size: 1600px 850px;
@@ -310,4 +364,136 @@ button.active {
     background-image: url('https://img.freepik.com/free-vector/pixel-art-mystical-background_52683-87349.jpg');
     background-repeat: no-repeat;
     background-size: 1650px 760px;
+}
+
+
+@keyframes mymove {
+    0% {
+        top: 650px;
+        right: 1px;
+        opacity: 1;
+    }
+    100% {
+        top: 350px;
+        right: 225px;
+        opacity: 0;
+    }
+
+
+}
+#animatedDiv {
+    position: absolute;
+    height: 30px;
+    width: 30px;
+}
+@keyframes move {
+    0% {
+        left: 1300px;
+        top: 650px;
+        opacity: 1;
+    }
+    100% {
+        left: 1175px;
+        top: 350px;
+        opacity: 0;
+    }
+
+}
+
+#Animated {
+    position: absolute;
+    height: 30px;
+    width: 30px;
+}
+@keyframes Animated {
+    0% {
+        left: 1100px;
+        top: 650px;
+        opacity: 1;
+    }
+    100% {
+        left: 1200px;
+        top: 350px;
+        opacity: 0;
+    }
+
+}
+#AnimatedWork{
+    position: absolute;
+    height: 30px;
+    width: 30px;
+}
+@keyframes Moving {
+    0% {
+        left: 1020px;
+        top: 650px;
+        opacity: 1;
+    }
+    100% {
+        left: 1200px;
+        top: 350px;
+        opacity: 0;
+    }
+
+}
+#working{
+    position: absolute;
+    height: 30px;
+    width: 30px;
+}
+
+.HUNGRYTEXT {
+    font-size: 20px;
+    position: absolute;
+    right: 400px;
+    top: 225px;
+    font-weight: bold;
+}
+.HappyText {
+     font-size: 20px;
+     position: absolute;
+     right: 400px;
+     top: 275px;
+     font-weight: bold;
+ }
+.SleepyText{
+    font-size: 20px;
+    position: absolute;
+    right: 400px;
+    top: 325px;
+    font-weight: bold;
+}
+.WorkText{
+    font-size: 20px;
+    position: absolute;
+    right: 400px;
+    top: 375px;
+    font-weight: bold;
+}
+
+.homemenu{
+    text-align: left;
+}
+.homemenu1{
+    text-align: left;
+    font-size: 9px;
+}
+
+.banaa {
+    position: absolute;
+    right: 510px;
+    height: 30px;
+    width: 30px;
+}
+.Happy {
+    position: absolute;
+    right: 510px;
+    height: 30px;
+    width: 30px;
+}
+.Sleep{
+    position: absolute;
+    right: 510px;
+    height: 30px;
+    width: 30px;
 }
