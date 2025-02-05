@@ -1,0 +1,266 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.7.17 Chrome/128.0.6613.36 Electron/32.0.1 Safari/537.36" version="24.7.17">
+  <diagram id="Pc6mxhUASxPlQeAQP9Y6" name="Pagina-1">
+    <mxGraphModel dx="1050" dy="621" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="7TSVFvl-DnoCVj5kWg1Y-1" value="" style="shape=table;startSize=0;container=1;collapsible=0;childLayout=tableLayout;strokeWidth=5;" vertex="1" parent="1">
+          <mxGeometry x="100" y="110" width="680" height="620" as="geometry" />
+        </mxCell>
+        <mxCell id="7TSVFvl-DnoCVj5kWg1Y-52" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeWidth=5;" vertex="1" parent="7TSVFvl-DnoCVj5kWg1Y-1">
+          <mxGeometry width="680" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="7TSVFvl-DnoCVj5kWg1Y-53" value="Actie" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;strokeWidth=5;" vertex="1" parent="7TSVFvl-DnoCVj5kWg1Y-52">
+          <mxGeometry width="187" height="56" as="geometry">
+            <mxRectangle width="187" height="56" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7TSVFvl-DnoCVj5kWg1Y-54" value="Scenario" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;strokeWidth=5;" vertex="1" parent="7TSVFvl-DnoCVj5kWg1Y-52">
+          <mxGeometry x="187" width="147" height="56" as="geometry">
+            <mxRectangle width="147" height="56" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7TSVFvl-DnoCVj5kWg1Y-55" value="Verwachte Resultaat" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;strokeWidth=5;" vertex="1" parent="7TSVFvl-DnoCVj5kWg1Y-52">
+          <mxGeometry x="334" width="174" height="56" as="geometry">
+            <mxRectangle width="174" height="56" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7TSVFvl-DnoCVj5kWg1Y-56" value="Werlijke Resultaat" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;strokeWidth=5;" vertex="1" parent="7TSVFvl-DnoCVj5kWg1Y-52">
+          <mxGeometry x="508" width="172" height="56" as="geometry">
+            <mxRectangle width="172" height="56" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7TSVFvl-DnoCVj5kWg1Y-2" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeWidth=5;" vertex="1" parent="7TSVFvl-DnoCVj5kWg1Y-1">
+          <mxGeometry y="56" width="680" height="57" as="geometry" />
+        </mxCell>
+        <mxCell id="7TSVFvl-DnoCVj5kWg1Y-3" value="Zet de Tamagotchi aan" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;strokeWidth=5;" vertex="1" parent="7TSVFvl-DnoCVj5kWg1Y-2">
+          <mxGeometry width="187" height="57" as="geometry">
+            <mxRectangle width="187" height="57" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7TSVFvl-DnoCVj5kWg1Y-4" value="je open de website" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;strokeWidth=5;" vertex="1" parent="7TSVFvl-DnoCVj5kWg1Y-2">
+          <mxGeometry x="187" width="147" height="57" as="geometry">
+            <mxRectangle width="147" height="57" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7TSVFvl-DnoCVj5kWg1Y-5" value="je open de website en je ziet de tamagotchi" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;strokeWidth=5;" vertex="1" parent="7TSVFvl-DnoCVj5kWg1Y-2">
+          <mxGeometry x="334" width="174" height="57" as="geometry">
+            <mxRectangle width="174" height="57" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7TSVFvl-DnoCVj5kWg1Y-6" value="&lt;span style=&quot;color: rgb(240, 240, 240); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(27, 29, 30); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;je open de website en je ziet de tamagotchi&lt;/span&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;strokeWidth=5;" vertex="1" parent="7TSVFvl-DnoCVj5kWg1Y-2">
+          <mxGeometry x="508" width="172" height="57" as="geometry">
+            <mxRectangle width="172" height="57" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7TSVFvl-DnoCVj5kWg1Y-7" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeWidth=5;" vertex="1" parent="7TSVFvl-DnoCVj5kWg1Y-1">
+          <mxGeometry y="113" width="680" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="7TSVFvl-DnoCVj5kWg1Y-8" value="De Tamagotchi heeft honger" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;strokeWidth=5;" vertex="1" parent="7TSVFvl-DnoCVj5kWg1Y-7">
+          <mxGeometry width="187" height="58" as="geometry">
+            <mxRectangle width="187" height="58" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7TSVFvl-DnoCVj5kWg1Y-9" value="je opent de website en je klikt op de bananaknop" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;strokeWidth=5;" vertex="1" parent="7TSVFvl-DnoCVj5kWg1Y-7">
+          <mxGeometry x="187" width="147" height="58" as="geometry">
+            <mxRectangle width="147" height="58" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7TSVFvl-DnoCVj5kWg1Y-10" value="je honger bar gaat omhoog" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;strokeWidth=5;" vertex="1" parent="7TSVFvl-DnoCVj5kWg1Y-7">
+          <mxGeometry x="334" width="174" height="58" as="geometry">
+            <mxRectangle width="174" height="58" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7TSVFvl-DnoCVj5kWg1Y-11" value="je honger bar gaat omhoog" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;strokeWidth=5;" vertex="1" parent="7TSVFvl-DnoCVj5kWg1Y-7">
+          <mxGeometry x="508" width="172" height="58" as="geometry">
+            <mxRectangle width="172" height="58" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7TSVFvl-DnoCVj5kWg1Y-12" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeWidth=5;" vertex="1" parent="7TSVFvl-DnoCVj5kWg1Y-1">
+          <mxGeometry y="171" width="680" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="7TSVFvl-DnoCVj5kWg1Y-13" value="De Tamagotchi wilt slapen" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;strokeWidth=5;" vertex="1" parent="7TSVFvl-DnoCVj5kWg1Y-12">
+          <mxGeometry width="187" height="55" as="geometry">
+            <mxRectangle width="187" height="55" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7TSVFvl-DnoCVj5kWg1Y-14" value="je opent de websit en je klikt op de slaapknop" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;strokeWidth=5;" vertex="1" parent="7TSVFvl-DnoCVj5kWg1Y-12">
+          <mxGeometry x="187" width="147" height="55" as="geometry">
+            <mxRectangle width="147" height="55" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7TSVFvl-DnoCVj5kWg1Y-15" value="je slaap bar gaat omhoog" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;strokeWidth=5;" vertex="1" parent="7TSVFvl-DnoCVj5kWg1Y-12">
+          <mxGeometry x="334" width="174" height="55" as="geometry">
+            <mxRectangle width="174" height="55" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7TSVFvl-DnoCVj5kWg1Y-16" value="je slaap bar gaat omhoog" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;strokeWidth=5;" vertex="1" parent="7TSVFvl-DnoCVj5kWg1Y-12">
+          <mxGeometry x="508" width="172" height="55" as="geometry">
+            <mxRectangle width="172" height="55" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7TSVFvl-DnoCVj5kWg1Y-17" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeWidth=5;" vertex="1" parent="7TSVFvl-DnoCVj5kWg1Y-1">
+          <mxGeometry y="226" width="680" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="7TSVFvl-DnoCVj5kWg1Y-18" value="Speel met de Tamagotchi" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;strokeWidth=5;" vertex="1" parent="7TSVFvl-DnoCVj5kWg1Y-17">
+          <mxGeometry width="187" height="56" as="geometry">
+            <mxRectangle width="187" height="56" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7TSVFvl-DnoCVj5kWg1Y-19" value="je click op de smile knop" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;strokeWidth=5;" vertex="1" parent="7TSVFvl-DnoCVj5kWg1Y-17">
+          <mxGeometry x="187" width="147" height="56" as="geometry">
+            <mxRectangle width="147" height="56" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7TSVFvl-DnoCVj5kWg1Y-20" value="zijn pleizer baar gaat omhoog" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;strokeWidth=5;" vertex="1" parent="7TSVFvl-DnoCVj5kWg1Y-17">
+          <mxGeometry x="334" width="174" height="56" as="geometry">
+            <mxRectangle width="174" height="56" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7TSVFvl-DnoCVj5kWg1Y-21" value="zijn pleizer baar gaat omhoog" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;strokeWidth=5;" vertex="1" parent="7TSVFvl-DnoCVj5kWg1Y-17">
+          <mxGeometry x="508" width="172" height="56" as="geometry">
+            <mxRectangle width="172" height="56" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7TSVFvl-DnoCVj5kWg1Y-22" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeWidth=5;" vertex="1" parent="7TSVFvl-DnoCVj5kWg1Y-1">
+          <mxGeometry y="282" width="680" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="7TSVFvl-DnoCVj5kWg1Y-23" value="laat de Tamagotchi lang zonder zorg" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;strokeWidth=5;" vertex="1" parent="7TSVFvl-DnoCVj5kWg1Y-22">
+          <mxGeometry width="187" height="56" as="geometry">
+            <mxRectangle width="187" height="56" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7TSVFvl-DnoCVj5kWg1Y-24" value="je start je tamagotchi en je all zijn waardes zijn null voor lange tijd" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;strokeWidth=5;" vertex="1" parent="7TSVFvl-DnoCVj5kWg1Y-22">
+          <mxGeometry x="187" width="147" height="56" as="geometry">
+            <mxRectangle width="147" height="56" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7TSVFvl-DnoCVj5kWg1Y-25" value="alle scores zijn heel leeg" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;strokeWidth=5;" vertex="1" parent="7TSVFvl-DnoCVj5kWg1Y-22">
+          <mxGeometry x="334" width="174" height="56" as="geometry">
+            <mxRectangle width="174" height="56" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7TSVFvl-DnoCVj5kWg1Y-26" value="de scores zijn heel leeg" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;strokeWidth=5;" vertex="1" parent="7TSVFvl-DnoCVj5kWg1Y-22">
+          <mxGeometry x="508" width="172" height="56" as="geometry">
+            <mxRectangle width="172" height="56" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7TSVFvl-DnoCVj5kWg1Y-27" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeWidth=5;" vertex="1" parent="7TSVFvl-DnoCVj5kWg1Y-1">
+          <mxGeometry y="338" width="680" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="7TSVFvl-DnoCVj5kWg1Y-28" value="je wilt dat je tamagotchi een safari outfit" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;strokeWidth=5;" vertex="1" parent="7TSVFvl-DnoCVj5kWg1Y-27">
+          <mxGeometry width="187" height="56" as="geometry">
+            <mxRectangle width="187" height="56" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7TSVFvl-DnoCVj5kWg1Y-29" value="je start je tamagotchi op en je zoek de knop safari" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;strokeWidth=5;" vertex="1" parent="7TSVFvl-DnoCVj5kWg1Y-27">
+          <mxGeometry x="187" width="147" height="56" as="geometry">
+            <mxRectangle width="147" height="56" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7TSVFvl-DnoCVj5kWg1Y-30" value="je krijgt de safari outfit op je tamagotchi" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;strokeWidth=5;" vertex="1" parent="7TSVFvl-DnoCVj5kWg1Y-27">
+          <mxGeometry x="334" width="174" height="56" as="geometry">
+            <mxRectangle width="174" height="56" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7TSVFvl-DnoCVj5kWg1Y-31" value="je krijgt de safari outfit op je tamagotchi" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;strokeWidth=5;" vertex="1" parent="7TSVFvl-DnoCVj5kWg1Y-27">
+          <mxGeometry x="508" width="172" height="56" as="geometry">
+            <mxRectangle width="172" height="56" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7TSVFvl-DnoCVj5kWg1Y-32" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeWidth=5;" vertex="1" parent="7TSVFvl-DnoCVj5kWg1Y-1">
+          <mxGeometry y="394" width="680" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="7TSVFvl-DnoCVj5kWg1Y-33" value="Je wilt de soundtrack aan als hij opent" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;strokeWidth=5;" vertex="1" parent="7TSVFvl-DnoCVj5kWg1Y-32">
+          <mxGeometry width="187" height="56" as="geometry">
+            <mxRectangle width="187" height="56" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7TSVFvl-DnoCVj5kWg1Y-34" value="je opent tamagotchi en de soundtrack&amp;nbsp; automaties aan te zijn" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;strokeWidth=5;" vertex="1" parent="7TSVFvl-DnoCVj5kWg1Y-32">
+          <mxGeometry x="187" width="147" height="56" as="geometry">
+            <mxRectangle width="147" height="56" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7TSVFvl-DnoCVj5kWg1Y-35" value="de soundtrack is aan" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;strokeWidth=5;" vertex="1" parent="7TSVFvl-DnoCVj5kWg1Y-32">
+          <mxGeometry x="334" width="174" height="56" as="geometry">
+            <mxRectangle width="174" height="56" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7TSVFvl-DnoCVj5kWg1Y-36" value="de sound track is aan" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;strokeWidth=5;" vertex="1" parent="7TSVFvl-DnoCVj5kWg1Y-32">
+          <mxGeometry x="508" width="172" height="56" as="geometry">
+            <mxRectangle width="172" height="56" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7TSVFvl-DnoCVj5kWg1Y-37" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeWidth=5;" vertex="1" parent="7TSVFvl-DnoCVj5kWg1Y-1">
+          <mxGeometry y="450" width="680" height="57" as="geometry" />
+        </mxCell>
+        <mxCell id="7TSVFvl-DnoCVj5kWg1Y-38" value="Je wilt de soundtrack uitzetten" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;strokeWidth=5;" vertex="1" parent="7TSVFvl-DnoCVj5kWg1Y-37">
+          <mxGeometry width="187" height="57" as="geometry">
+            <mxRectangle width="187" height="57" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7TSVFvl-DnoCVj5kWg1Y-39" value="je start je tamagotchi ga naar rechts boven en click de pauzeknop" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;strokeWidth=5;" vertex="1" parent="7TSVFvl-DnoCVj5kWg1Y-37">
+          <mxGeometry x="187" width="147" height="57" as="geometry">
+            <mxRectangle width="147" height="57" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7TSVFvl-DnoCVj5kWg1Y-40" value="de soundtrack gaat uit" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;strokeWidth=5;" vertex="1" parent="7TSVFvl-DnoCVj5kWg1Y-37">
+          <mxGeometry x="334" width="174" height="57" as="geometry">
+            <mxRectangle width="174" height="57" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7TSVFvl-DnoCVj5kWg1Y-41" value="de soundtrack gaat uit" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;strokeWidth=5;" vertex="1" parent="7TSVFvl-DnoCVj5kWg1Y-37">
+          <mxGeometry x="508" width="172" height="57" as="geometry">
+            <mxRectangle width="172" height="57" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7TSVFvl-DnoCVj5kWg1Y-42" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeWidth=5;" vertex="1" parent="7TSVFvl-DnoCVj5kWg1Y-1">
+          <mxGeometry y="507" width="680" height="57" as="geometry" />
+        </mxCell>
+        <mxCell id="7TSVFvl-DnoCVj5kWg1Y-43" value="Je wilt je achtergrond veranderen naar een bos" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;strokeWidth=5;" vertex="1" parent="7TSVFvl-DnoCVj5kWg1Y-42">
+          <mxGeometry width="187" height="57" as="geometry">
+            <mxRectangle width="187" height="57" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7TSVFvl-DnoCVj5kWg1Y-44" value="je start tamagotchi en je klikt op &#39;forest-knop&#39;&amp;nbsp;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;strokeWidth=5;" vertex="1" parent="7TSVFvl-DnoCVj5kWg1Y-42">
+          <mxGeometry x="187" width="147" height="57" as="geometry">
+            <mxRectangle width="147" height="57" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7TSVFvl-DnoCVj5kWg1Y-45" value="je krijgt een bos achtergrond" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;strokeWidth=5;" vertex="1" parent="7TSVFvl-DnoCVj5kWg1Y-42">
+          <mxGeometry x="334" width="174" height="57" as="geometry">
+            <mxRectangle width="174" height="57" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7TSVFvl-DnoCVj5kWg1Y-46" value="je krijgt een bos achtergrond" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;strokeWidth=5;" vertex="1" parent="7TSVFvl-DnoCVj5kWg1Y-42">
+          <mxGeometry x="508" width="172" height="57" as="geometry">
+            <mxRectangle width="172" height="57" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7TSVFvl-DnoCVj5kWg1Y-47" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeWidth=5;" vertex="1" parent="7TSVFvl-DnoCVj5kWg1Y-1">
+          <mxGeometry y="564" width="680" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="7TSVFvl-DnoCVj5kWg1Y-48" value="Je wilt weer de normale aap" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;strokeWidth=5;" vertex="1" parent="7TSVFvl-DnoCVj5kWg1Y-47">
+          <mxGeometry width="187" height="56" as="geometry">
+            <mxRectangle width="187" height="56" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7TSVFvl-DnoCVj5kWg1Y-49" value="je start tamagotchi en je klikt op&amp;nbsp;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;strokeWidth=5;" vertex="1" parent="7TSVFvl-DnoCVj5kWg1Y-47">
+          <mxGeometry x="187" width="147" height="56" as="geometry">
+            <mxRectangle width="147" height="56" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7TSVFvl-DnoCVj5kWg1Y-50" value="je krijgt weer de normale aap" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;strokeWidth=5;" vertex="1" parent="7TSVFvl-DnoCVj5kWg1Y-47">
+          <mxGeometry x="334" width="174" height="56" as="geometry">
+            <mxRectangle width="174" height="56" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7TSVFvl-DnoCVj5kWg1Y-51" value="hij is weer normaal" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;strokeWidth=5;" vertex="1" parent="7TSVFvl-DnoCVj5kWg1Y-47">
+          <mxGeometry x="508" width="172" height="56" as="geometry">
+            <mxRectangle width="172" height="56" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
