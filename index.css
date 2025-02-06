@@ -18,70 +18,99 @@ body{
     font-size: 13px;
 }
 
-.menu-bar{
-    background: rgb(0,0,0);
-    opacity: 95%;
+.custom-dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-toggle {
+    padding: 5px 15px;
+    background-color: rgba(0, 0, 0, 0.8);
+    border: 1px solid #444;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 13px;
+    color: #fff;
+    transition: background-color 0.3s ease;
+}
+
+.dropdown-toggle:hover {
+    background-color: rgba(0, 0, 0, 1);
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.9);
+    min-width: 160px;
+    border: 1px solid #444;
+    border-radius: 4px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.4);
+    z-index: 1;
+    backdrop-filter: blur(5px);
+    flex-direction: column;
+}
+
+.dropdown-item {
+    display: block;
+    width: 100%;
+    padding: 5px 10px;
+    cursor: pointer;
+    color: #fff;
+    transition: background-color 0.3s ease;
     text-align: center;
 }
 
-.menu-bar ul{
-    display: inline-flex;
-    list-style: none;
-    color: white;
+.dropdown-item:hover {
+    background-color: rgba(255, 255, 255, 0.1);
 }
 
-.menu-bar ul li{
-    width: 120px;
-    margin: 15px;
-    padding: 5px;
-}
-
-.menu-bar ul li a{
-    text-decoration: none;
-    color: white;
-}
-
-.sub-menu{
-    display: none;
-}
-
-.sub-menu ul button {
+.show {
     display: block;
-    margin-bottom: 10px;
-    padding: 5px 10px;
-    border: none;
+}
+
+.main-option {
+    position: relative;
+    display: inline-block;
+    left: 1225px;
+    top: 2px;
+    width: 200px;
+    padding: 10px 15px;
+    background-color: rgba(0, 0, 0, 0.8);
+    border: 1px solid #444;
+    border-radius: 4px;
     cursor: pointer;
+    font-size: 13px;
+    transition: background-color 0.3s ease;
+    text-align: center;
 }
 
-.menu-bar ul li:hover .sub-menu {
-    display: block;
-    position: absolute;
-    background:rgb(0,0,0);
-    margin-top:15px;
-    margin-left: -15px;
-}
 
-.menu-bar ul li:hover .sub-menu ul {
-    display: block;
-    margin: 10px;
-}
-
-.menu-bar ul li:hover .sub-menu ul li{
-    width: 150px;
-    margin: 10px;
-    border-bottom: 1px dotted black;
+.main-toggle {
+    border: none;
     background: transparent;
-    border-radius: 0;
-    text-align: left;
-}
-
-.SMF {
+    box-shadow: none;
+    padding: 5px 10px;
     font-size: 16px;
+    cursor: pointer;
+    color: white;
 }
 
-.DT {
-    background: black;
-    color: white;
+.settings-content {
+    border: none;
+    background: transparent;
+    box-shadow: none;
+    padding: 0;
+}
+
+.settings-content {
+    display: flex;
+    flex-direction: column; /* Stacks elements vertically */
+    gap: 10px;
+}
+
+.custom-dropdown {
+    width: 100%;
 }
 
 .animal{
@@ -107,7 +136,6 @@ button:active {
     bottom: 0;
     transition: all 0.3s ease-in-out;
     z-index: -1;
-
     display: flex;
     align-items: center;
     justify-content: center;
@@ -250,18 +278,9 @@ button:active {
     bottom: 300px;
 }
 
-header {
-
-
-}
-
 .settings {
     position: absolute;
     width: 35px;
-}
-audio{
-    position: absolute;
-    right: 50px;
 }
 
 @-webkit-keyframes fadeIn {
@@ -308,8 +327,8 @@ audio{
     font-size: 20px;
     color: yellow;
     background-color: orange;
-    margin: 5px;
-    padding: 10px 20px;
+    margin: 2px;
+    padding: 5px 15px;
     border: none;
     cursor: pointer;
 }
@@ -317,8 +336,8 @@ audio{
     font-size: 20px;
     color: yellow;
     background-color: green;
-    margin: 5px;
-    padding: 10px 20px;
+    margin: 2px;
+    padding: 5px 15px;
     border: none;
     cursor: pointer;
 }
@@ -326,8 +345,8 @@ audio{
     font-size: 20px;
     color: yellow;
     background-color: red;
-    margin: 5px;
-    padding: 10px 20px;
+    margin: 2px;
+    padding: 5px 15px;
     border: none;
     cursor: pointer;
 }
@@ -335,8 +354,8 @@ audio{
     font-size: 20px;
     color: red;
     background-color: gray;
-    margin: 5px;
-    padding: 10px 20px;
+    margin: 2px;
+    padding: 5px 15px;
     border: none;
     cursor: pointer;
 }
@@ -405,6 +424,7 @@ button.active {
     height: 30px;
     width: 30px;
 }
+
 @keyframes Animated {
     0% {
         left: 1100px;
