@@ -22,37 +22,50 @@ function activateMode(mode, button) {
     button.classList.add("active");
 
 }
-
+const minCount = 0;
 let count = 0;
 const halfCount = 50;
-const Kwartcount= 75;
+const kwartCount = 75;
 const maxCount = 100;
 const decrementRate = 10000;
 
-function updateDisplay() {
-    const progressBar = document.getElementById('progress-bar');
-    progressBar.style.width = count + '%';
-    progressBar.textContent = count + '%';
-}
-
 function increment() {
     if (count < halfCount) {
-        count += 16;
-        updateDisplay();
-    }else if (count < Kwartcount){
+        count += 30;
+    } else if (count < kwartCount) {
+        count += 15;
+    } else if (count < maxCount) {
         count += 8;
-
-        updateDisplay();
-
-    }
-    else if (count < maxCount){
-        count += 4;
-        updateDisplay();
     }
     else {
-        alert("Maximum count reached!");
+        alert ("Max Count Reached")
+    }
+
+    updateDisplay();
+
+    if (count <= minCount) {
+        showRestartScreen();
     }
 }
+
+function updateDisplay() {
+    document.getElementById("counter").innerText = `Count: ${count}`;
+}
+
+function restartPage() {
+    location.reload();
+}
+
+
+function updateDisplay() {
+    document.getElementById("counter").innerText = `Count: ${count}`;
+}
+
+
+function restartPage() {
+    location.reload();
+}
+
 let COunt = 0;
 const HAlfCOunt = 50;
 const KWartCOunt= 75;
@@ -60,18 +73,18 @@ const MAxCOunt = 100;
 const DEcrementRate = 10000;
 function INcrement() {
     if (COunt < HAlfCOunt) {
-        COunt += 32;
+        COunt += 30;
         UPdateDisplay()
 
     }else if (COunt < KWartCOunt){
-        COunt += 16;
+        COunt += 10;
         UPdateDisplay()
     }else if (COunt < MAxCOunt){
-        COunt += 8;
+        COunt += 4;
         UPdateDisplay()
     }
     else {
-        alert("Maximum count reached!");
+        alert("Max Count Reached");
     }
 }
 let COUnt = 0;
@@ -81,18 +94,18 @@ const MAXCOUnt = 100;
 const DECrementRate = 10000;
 function INCrement() {
     if (COUnt < HAlFCOUnt) {
-        COUnt += 16;
+        COUnt += 22;
         UPDateDisplay()
 
     }else if (COUnt < KWArtCOUnt){
-        COUnt += 8;
+        COUnt += 10;
         UPDateDisplay()
     }else if (COUnt < MAXCOUnt){
         COUnt += 4;
         UPDateDisplay()
     }
     else {
-        alert("Maximum count reached!");
+        alert("Max Count Reached");
     }
 }
 let Count = 0;
@@ -102,10 +115,10 @@ const MaxCount = 100;
 const DecrementRate = 10000;
 function Increment() {
     if (Count < HalfCount) {
-        Count += 16;
+        Count += 24;
         UpdateDisplay();
     }else if (Count < KwartCount){
-        Count += 8;
+        Count += 10;
         UpdateDisplay();
     }
     else if (Count < MaxCount){
@@ -113,7 +126,7 @@ function Increment() {
         UpdateDisplay();
     }
     else {
-        alert("Maximum count reached!");
+        alert("Max Count Reached   ");
     }
 }
 function updateDisplay() {
@@ -226,5 +239,4 @@ function StartingAnimation() {
     // Add the animation back
     working.style.animation = 'Moving 1750ms forwards';
 }
-
 
